@@ -1,3 +1,7 @@
+> **Archived — 2026-11-02.** This legacy lmapi tool is retired following consolidation on the lmcode host contract and retirement of lmapi schema-module imports in lmscript.
+> Replacement: [lmgit, the maintained lmcode Git host](https://github.com/lmctl-ai/lmgit).
+> Source, history, tags and existing releases are retained for reference. Replacement APIs and policy behavior differ; follow the successor documentation.
+
 # lmgit — `git2`, a structured git CLI
 
 `git2` runs `git` (argv only, never a shell) and returns JSON: status, diff, log, blame, branches, remotes, tags, stashes, worktrees and the write operations around them. Byte-preserving `lm_*` reads keep non-UTF-8 paths as `{bytes_hex}` and strip credentials from remote URLs.
